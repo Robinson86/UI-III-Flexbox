@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin-left: 75px;
 	margin-right: 50px;
-	max-width: 75%;
+	max-width: 67%;
 }
 
 .logo {
@@ -195,37 +195,56 @@ footer {
 
 .info {
 	display: flex;
-	height:75%;
+	height: 800px;
 	width: 900px ;
 	flex-flow:  row wrap;
 	justify-content: space-between;
-	align-content: space-around;
-	background-color: limegreen;
+	align-content: space-between;
+	
 }
 
 .info .info1 {
-	
-	height: 150px;
-	width: 40%;
+	display: flex;
+	height: 180px;
+	width: 400px;
 	border: 1px solid black;
 	background-color:lightgrey;
-
+	flex-flow: column;
+	justify-content: space-between;
 }
 
 .facts {
 	display: flex;
-	height:75%;
-	width: 75% ;
-	flex-flow:  row wrap;
+	height:800;
+	width: 900 ;
+	
 	justify-content: space-between;
-	align-content: space-around;;
+	
 	
 
 }
 
 .facts .facts1 {
-	height: 200px;
-	width: 40%;
-	background-color: blue;
+	
+	height: 400px;
+	width: 400px;
+	
 }
 
+*.info .info1 .button {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: .9em;
+	background-color: white;
+}
+
+
+ul {
+	list-style-type: square;
+
+}
